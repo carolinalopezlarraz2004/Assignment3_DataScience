@@ -242,11 +242,6 @@ ui <- fluidPage(
                    column(6, h4("Agents"), uiOutput("agents")),
                    column(6, h4("Generated Entities"), uiOutput("entities"))
                  )
-        ),
-        
-        # About / workflow description
-        tabPanel("About",
-                 textOutput("workflow")
         )
       )
     )
